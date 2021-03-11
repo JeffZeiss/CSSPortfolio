@@ -1,0 +1,120 @@
+Here are some various examples of style (they are redundant but correct in scope example)(*the -- - --- denote labels here)
+Forms--------------------
+---Text Input 
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+    color: gray;
+    font-family: arial;
+  }
+  ---Text Input 
+  form input[type=text] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  ---Text Input 
+  form input[type=text]#zip {
+    width: 51px;
+  }
+------------------------
+
+  ---form text area-
+  form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: gray;
+    font-family: arial;
+  }
+ ---form text area-
+  form textarea {
+    height: 4.75rem;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  ---------------------
+  ---Radio Button 
+  form input[type="radio"] {
+    font-size: 16px;
+  }
+  ---radio button  
+  form input[type="radio"] + label {
+    display: inline;
+    color: #000;
+    font-size: 16px;
+  }
+
+  ---check boxes
+  form label,
+form p {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: gray;
+  font-family: arial;
+}
+---check boxes
+
+/* Does not style text, but the box size: */
+input[type="checkbox"] {
+  color: red; /* Just to show this doesn't change the text color */ 
+  font-size: 26px; /* Size effects bullet and padding */ 
+}
+---check boxes
+
+form input[type="checkbox"] + label { 
+  display: inline;
+  color: #000;
+  font-size: 16px;
+}
+
+---Dropdown list
+DO NOT STYLE HTML DROPDOWNS 
+(They should be made in JS eventually and styled there I think)
+
+---buttons
+
+form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  margin: 0 8px 10px 0;
+}
+
+---field set
+fieldset{
+  padding: 10px 12px;
+	margin: 10px 0 20px 0;
+  border-radius: 6px;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+---password fields
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: gray;
+  font-family: arial;
+}
+
+form input[type="password"] { 
+  font-size: 16px;
+}
+
+---
