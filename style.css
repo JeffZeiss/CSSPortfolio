@@ -106,5 +106,6 @@ textarea {
 @media all and (min-width: 700px) {
 .projCard {
     flex-direction: row;
+    justify-content: space-evenly;
 }
   }
