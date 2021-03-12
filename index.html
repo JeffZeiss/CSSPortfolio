@@ -1,182 +1,146 @@
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Jeffrey Zeiss's Full Stack Web Development Portfolio Home Page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeff Zeiss: Developer</title>
+    <title>Jeff Zeiss: Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    HEADER FOR NAV SEARCH¿ TITLE LOGO¿ AUTHOR¿
-    <main>
+  </head>
+  <body>
     <header>
-        TITLE
-        <h1></h1>
-        NAVIGATION
-        <nav>
-            <ul>LINKS
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
-        </nav>
+      <h1>Jeff Zeiss: <br>Full Stack Web Engineer</h1>
+      <ul class="horizList">
+        <li>HTML</li> 
+        <li>JavaScript</li> 
+        <li>CSS</li>
+        <li>BootStrap</li> 
+        <li>React</li>
+      </ul>
+      <Nav class="topNav">
+        <ul class="navUL">
+          <li class=liLink><a href=#welcome>Welcome! | </a></li>
+          <li class=liLink><a href=#about>My Skills | </a></li>
+          <li class=liLink><a href=#projects>Projects/Portfolio | </a></li>
+          <li class=liLink><a href=#contact>Contact</a></li>
+        </ul>
+      </Nav>
     </header>
-    <section>
-        <h2></h2>
-
-    </section>
-    <area> DEFINES CLICKABLE PORTION OF IMAGE? HOW IT DIFFERS FROM MAP?
-    <map></map>MORE LIKE WHAT I DID ON MY ORIGINAL SITE
-    <img> YAY FOR IMAGES EH?
-    <div></div>
-    <article>
-        <h3></h3>
-        <code></code>USE IN SKILL SECTION? AS EXAMPLE...
-        <p></p>
-        <hr>DOES THIS SIT IN THE P ELEMENT?
-        <em></em> FOR EMPHASIS
-        <b></b> FOR "BOLDISHNESS?" BRING ATTN
-        <i></i> for italic
-        <q></q> FOR QUOTES
-        <strong></strong> FOR STRONG IMPORTANCE
-        <sup></sup> SUPER SCRIPT
-        <p></p>
-        <br>DOES THIS SIT IN THE P ELEMENT?
-        <p></p>
+    <main>
+      <section id="welcome">
+        <h2>Welcome</h2>
         <div>
-            <p></p>
+          <img src="" alt="selfie"/>
         </div>
-      </article>
-      <card></card>IS THIS BOOTSTRAP ONLY?
-    </main> SHOULD THIS CONTAIN THE CONTACT SECTION?
+        <div>
+          <!-- general notes about myself and personality -->
+          <!-- how you got into coding/passion for the web -->
+          <!-- where you are -->
+          <!-- where you want to be -->
+          <!-- who you want to work with TEAM/CLIENT -->
+          <!-- what you want to work on -->
+          <p>additional place holder content</p>
+        </div>
+      </section>
+      <div><br></div>
+      <section id="about">
+        <h2>My Skills</h2>
+        <div>
+          <img src="" alt="selfie"/>
+        </div>
+        <div>
+          <!-- skills -->
+          <!-- experience -->
+          <!-- passion for the web -->
+          <!-- standout as a unique engineer -->
+          <p>place holder text</p>
+        </div>
+      </section>
+      <div><br></div>
 
-    POSSIBLE USE
-    <details></details>HIDDEN DETAILS REVEALED WHEN WIDGET CLICKED
-    <dialog></dialog>
-    <menu></menu>
-    <template> PLACED TO BE FILLED HYPOTHETICALLY VIA JS
-
-
-    CONTACT
-    <form></form>
-
- These are finished form examples from the checkpoint
-    <form action="process-form.js" method="post">
-        <!-- Add the HTML input elements here -->
-      Text example
-      <label for="user-name">First name:</label>
-  <input id="user-name" type="text" name="name" />
- 
- 
-  <input
-    id="location"
-    type="text"
-    name="zipcode"
-    autofocus="on"
-    maxlength="5"
-    required
-    placeholder=""
-  />  Alternative input options + placeholder where?
-  <label for="form-message">Your message:</label>
- 
- text area 
-  <textarea
-    id="form-message"
-    name="message"
-    autofocus="on"
-    required
-    maxlength="200"
-  ></textarea>
-
-
-  <form> Radio butons!
-    <h2>Favorite Color:</h2>
-    <input id="red" name="color" type="radio" value="red" />
-    <label for="red">Red</label><br />
-    <input id="blue" name="color" type="radio" value="blue" />
-    <label for="blue">Blue</label><br />
-    <input id="white" name="color" type="radio" value="white" />
-    <label for="white">White</label><br />
-  </form>
-
-
-  <form> Checkboxes
-    <p>Choose your monster's features:</p>
-    <input name="scales" type="checkbox" id="scales" />
-    <label for="scales">Scales</label><br />
-    <input name="horns" type="checkbox" id="horns" />
-    <label for="horns">Horns</label><br />
-    <input name="wings" type="checkbox" id="wings" />
-    <label for="wings">Wings</label>
-  </form>
-
-
-  <form> dropdown list
-    <h2>Choose a font:</h2>
-    <select name="fonts" size="1">
-      <option value="arial">Arial</option>
-      <option value="times">Times New Roman</option>
-      <option value="comicsans">Comic Sans</option>
-      <option value="papyrus">Papyrus</option>
-    </select>
-  </form>
-
-
-  <form> SUBMISSION BUTTONS<<<<<<<<<<<<<<<<<<<
-    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
-  </form>
-
-
-  <form>
-    <fieldset>field sets
-      <legend>Shipping Information</legend>
-      <div>
-        <label for="shippingName">Name:</label>
-        <input id="shippingName" type="text" name="shipName" />
-      </div>
-      <div>
-        <label for="shippingZip">Zip code:</label>
-        <input id="shippingZip" type="text" name="shipZip" />
-      </div>
-    </fieldset>
-  </form>
-
-
-  <form> Password field
-    <label for="pwd">Password:</label>
-    <input id="pwd" type="password" name="pwd" minlength="8" />
-  </form>
-
-  <form> Pattern forcer
-    <label for="phonenum">Phone #:</label>
-    <input
-      id="phonenum"
-      type="text"
-      name="phone"
-      pattern="\d{3}[\-]\d{3}[\-]\d{4}"
-      placeholder="xxx-xxx-xxxx"
-    />
-  </form>
-
-
-
-    </form> end form example list
-  
-    <form></form>
-    <input/> single container
-    <fieldset></fieldset>
-    <option></option>
-    <select></select>
-    <label></label>
-    <textarea>	
-    <button></button>
-    CONTACT INFO
-    <address></address>
-    ABOUT SITE THE AUTHOR, COPYRIGHT
-    <footer></footer>
-    SCRIPT
-    <script href></script>
-    <noscript></noscript>
-</body>
+      <section id="projects">
+        <h2>Past Projects</h2>
+        <div class="projCard">
+          <div class="row">
+          <div class="project responsive">
+            <h4>Project Title1</h4>
+            <a href="">Project Link Live</a>
+            <img src="" alt="screen grab"/>
+            <h6>Function/Purpose</h2>
+            <p></p>
+            <h6>Under the hood</h6>
+            <p></p>
+            <a href="">Project Link Repository</a>
+          </div><br>
+        <!-- </div>
+        <div class="projCard"> -->
+          <div class="project responsive">
+            <h4>Project Title2</h4>
+            <a href="">Project Link Live</a>
+            <img src="" alt="screen grab"/>
+            <h6>Function/Purpose</h2>
+            <p></p>
+            <h6>Under the hood</h6>
+            <p></p>
+            <a href="">Project Link Repository</a>
+            </div>
+          </div>
+          <div class="row">
+          <!-- </div>
+        <div class="projCard"> -->
+          <div class="project responsive">
+            <h4>Project Title3</h4>
+            <a href="">Project Link Live</a>
+            <img src="" alt="screen grab"/>
+            <h6>Function/Purpose</h2>
+            <p></p>
+            <h6>Under the hood</h6>
+            <p></p>
+            <a href="">Project Link Repository</a>
+          </div><br>
+        <!-- </div>
+        <div class="row"> -->
+          <div class="project responsive">
+            <h4>Project Title4</h4>
+            <a href="">Project Link Live</a>
+            <img src="" alt="screen grab"/>
+            <h6>Function/Purpose</h2>
+            <p></p>
+            <h6>Under the hood</h6>
+            <p></p>
+            <a href="">Project Link Repository</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        
+        <section id="contact">
+          <form action="https://formspree.io/f/mwkwgbqq" target ="_blank" method="post">
+            <h2>Have a project you'd like to discuss? <br>Or just want to talk development?<br>Contact me below!</h2>
+            <label for="name">Your Name</label>
+            <input id="name" type="text" name="name" required/><br>
+            <label for="email">Your Email</label>
+            <input id="email" type="email" name="email" required/><br>
+            <label for="messageme">Open the Discussion!</label>
+            <textarea id="messageme" name="messageContent" required maxlength="250"></textarea><br>
+            <button type="submit">Submit</button>
+          </form>
+        </section>    
+      </section>
+    </main>
+    <footer>
+      <h5>Contact me with one of the links below!</h5>
+      <ul class="horizList">
+        <li><a href="mailto:jefferzeiss@gmail.com">Email</a></li>
+        <li><a href="">Github</a></li>
+        <li><a href="">Linked In</a></li>
+        <li><a href="#contact">Request a contact</a></li>
+        <li><a href="">Email</a></li>
+      </ul>
+      <h6>©2021 Jeffrey Zeiss. All Rights Reserved</h6>
+      
+    </footer>
+  </body>
 </html>
