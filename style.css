@@ -29,7 +29,6 @@ p, h1, h2, h3, h4, h5, input, textarea {
 header nav ul, header ul, footer ul {
     display: flex;
     justify-content: space-evenly;
-    align-items: ;
 }
 
 
@@ -48,25 +47,25 @@ ul li a {
 }
 
 header nav ul li:last-child a{
-    margin-right: 15;
+    margin-right: 15px;
 }
 
 .navUL{
     display: flex;
-    justify-content: ;
 }
 #contact {
     display: flex;
     flex-direction: column;
 }
-form, {
+form {
     justify-content: flex-end;
 }
+
 label{
     display: block;
 }
 textarea {
-    pad-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 #contact, #projects, #about, #welcome {
@@ -75,7 +74,7 @@ textarea {
 
     
 }
-#projects, #about, #welcome, form, .project {
+#projects, #about, #welcome, form  {
     border: 1px solid #09ff00;
 }
 
@@ -84,7 +83,7 @@ textarea {
 }
 .projCard {
     display:flex;
-    border:#ff0066 2px solid;
+    /* border:#ff0066 2px solid; */
     flex-direction: column;
     /* remove above */
 }
@@ -92,20 +91,31 @@ textarea {
     display:flex;
     flex-direction: column;
 }
-
-
+.welcomeFlex {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width:100%;
+    /* height:auto; */
+}
 .project {
     padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-@media all and (min-width: 500px) {
 
-  .row{
+@media all and (min-width: 500px) {
+  .row {
   flex-direction: row;
+  }
+  .welcomeFlex {
+      flex-direction: row;
   }
 }
 @media all and (min-width: 700px) {
 .projCard {
     flex-direction: row;
     justify-content: center;
-}
+    }
   }

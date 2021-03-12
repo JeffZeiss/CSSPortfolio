@@ -34,3 +34,5 @@ https://github.com/JeffZeiss/starter-national-parks
 Contact Digital Rolodex
 m20 cp10 load
 
+all pics 366 × 352
+width="366" height="352"
