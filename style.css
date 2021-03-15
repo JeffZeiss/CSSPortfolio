@@ -31,6 +31,9 @@ header nav ul, header ul, footer ul {
     justify-content: space-evenly;
 }
 
+p {
+    padding:15px;
+}
 
 ul.horizList li{
     color:#09ff00;
@@ -78,13 +81,14 @@ textarea {
     border: 1px solid #09ff00;
 }
 
-#contact h2, #projects h2, #about h2, #welcome h2, form, label, input, button {
+#contact h2, #projects h2, #about h2, #welcome h2, form, label, button {
     text-align: center;
 }
 .projCard {
     display:flex;
     /* border:#ff0066 2px solid; */
     flex-direction: column;
+    align-items: center;
     /* remove above */
 }
 .row {
@@ -94,15 +98,26 @@ textarea {
 .welcomeFlex {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+ol {
+    text-align: center;
+    list-style: none;
+}
+
 img {
     width:100%;
     height:auto;
+    max-width: 350px;
+    max-height: 350px;
 }
 .project {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
+}
+a:visited {
+    color: azure;
 }
 
 @media all and (min-width: 500px) {
