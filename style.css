@@ -24,6 +24,7 @@ ul{
 
 p, h1, h2, h3, h4, h5, input, textarea {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 15px;
 }
 
 header nav ul, header ul, footer ul {
@@ -31,9 +32,10 @@ header nav ul, header ul, footer ul {
     justify-content: space-evenly;
 }
 
-p {
+p ,h4,h6{
     padding:15px;
 }
+
 
 ul.horizList li{
     color:#09ff00;
@@ -116,6 +118,7 @@ ol {
  .welcomeImage {
     padding: 15px;
 }
+
 
 img {
     width:100%;
